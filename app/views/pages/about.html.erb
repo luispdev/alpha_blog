@@ -1,3 +1,13 @@
-<h1>This is the Alpha Blog about page.</h1>
-<%= link_to 'Return to article listing', articles_path %> |
-<%= link_to 'Home', root_path %>
+<div class="jumbotron text-white">
+  <div class="container">
+    <h1 class="display-4">About Alpha Blog</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+
+<div class="text-center mb-3">
+  <%= link_to '[ Return to article listing ]', articles_path, class: "text-success" %> |
+  <%= link_to '[ Home ]', root_path, class: "text-success" %>
+</div>
+
