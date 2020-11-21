@@ -1,4 +1,4 @@
-<h1 class="text-center mt-4">Create New Category</h1>
+<h1 class="text-center mt-4">Edit Category Name</h1>
 
 <div class="container">
   <div class="row justify-content-center">
@@ -6,7 +6,7 @@
       <%= render 'form' %>
     </div>
     <div class="text-center mb-3">
-      <%= link_to '[ Return to category listing ]', categories_path, class: "text-success" %>
+      <%= link_to '[ Return to category listing ]', category_path(@category), class: "text-success" %>
     </div>
   </div>
-</div>  
+</div> 
